@@ -1,0 +1,57 @@
+/* Education Section */
+#education {
+    background-color: black;
+    padding: 5rem 0;
+    text-align: center;
+    color: white;
+}
+
+#education h2 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #b74b4b;
+}
+
+.education-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.education-box {
+    background-color: #161616;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 25%;
+    border: 2px solid #b74b4b;
+}
+
+.education-box h3 {
+    color: #b74b4b;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.education-box p {
+    font-size: 1.6rem;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color: #b74b4b;
+    border-bottom: 3px solid #b74b4b;
+}
